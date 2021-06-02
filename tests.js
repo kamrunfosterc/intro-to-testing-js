@@ -17,15 +17,19 @@ describe('helloWorld', function() {
 // ****** ****** ****** ADD BY ME ****** ****** ******
 describe('sayHello', function(){
     it('should be a defined function', function(){
-        expect(typeof sayHello).toBe("function");
+        expect(typeof sayHello).toBe("function");// ex1
     });
     it('should return a string when called', function() {
-        expect(typeof sayHello()).toBe("string");
+        expect(typeof sayHello()).toBe("string");//ex 2
     });
-    it('should return the string "Hello, Amari!" when executed', function() {
-        expect(sayHello('Amari')).toBe("Hello, Amari!");
+    it('should return the string "Hello, Jane!" when executed', function() {
+        expect(sayHello("Jane")).toBe("Hello, Jane!"); //ex 3
     });
     it('should return the string "Hello, Ashley!" when executed', function() {
-        expect(sayHello('Ashley')).toBe("Hello, Ashley!");
+        expect(sayHello('Ashley')).toBe("Hello, Ashley!");//ex 4
     });
+    it('should return the string "Hello, Pat!" when executed', function() {
+        expect(sayHello('Pat')).toBe("Hello, Pat!");
+    });
+
 });

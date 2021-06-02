@@ -5,11 +5,18 @@ function helloWorld() {
 
 function sayHello(name){
     // return 'Say Hello';
-    return 'Hello, ' + name + '!';// part 2
-    if (name === 'Amari'){
-        return 'Hello, Amari';
-    } else if (name === Ashley){
-        return 'Hello, Ashley';
+    if (name === 'Jane'){
+        return 'Hello, Jane!'; //ex 3
+    } else if (name === 'Ashley') {
+        return 'Hello, Ashley!';// ex 4
+    } else if (name === 'Pat') {
+        return 'Hello, Pat!';// ex 5 check
     }
+    return 'Hello, ' + name + '!';//  ex 6
+
+
+    /* else if (name()){
+        return 'Hello, World!'
+    } */
     //return "Say, Hello";
 }
