@@ -25,4 +25,7 @@ describe('sayHello', function(){
     it('should return the string "Hello, Amari!" when executed', function() {
         expect(sayHello('Amari')).toBe("Hello, Amari!");
     });
+    it('should return the string "Hello, Ashley!" when executed', function() {
+        expect(sayHello('Ashley')).toBe("Hello, Ashley!");
+    });
 });
