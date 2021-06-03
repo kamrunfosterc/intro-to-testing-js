@@ -31,4 +31,22 @@ describe('sayHello', function(){
     it('should return "Hello, Pat!" when passed the argument "Pat",', function (){
         expect(typeof sayHello('Pat')).toBe('string');
     });
+    it('should return "Hello, World!" when passed no arguments,', function (){
+        expect(sayHello()).toBe('Hello, World!');
+    });
+    it('should return "Hello, World!" when passed arguments of true,', function (){
+        expect(sayHello(true)).toBe('Hello, World!');
+    });
+    it('should return "Hello, World!" when passed arguments of false,', function (){
+        expect(sayHello(false)).toBe('Hello, World!');
+    });
+    it('should return "Hello, World!" when passed argument of null,', function (){
+        expect(sayHello(null)).toBe('Hello, World!');
+    });
+    it('should return "Hello, World!" when passed argument of "",', function (){
+        expect(sayHello("")).toBe('Hello, World!');
+    });
+    it('should return "Hello, World!" when passed argument of "5",', function (){
+        expect(sayHello("5")).toBe('Hello, World!');
+    });
 })
