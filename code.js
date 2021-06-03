@@ -11,9 +11,13 @@ function sayHello(name){
         return 'Hello, Ashley!';// ex 4
     } else if (name === 'Pat') {
         return 'Hello, Pat!';// ex 5 check
+    }else {
+        return 'Hello, ' + name + '!';
+    }//  ex 6
+    // git saved Ex 7
+    else if (name === undefined){
+        return "Hello, World!";//ex8
     }
-    return 'Hello, ' + name + '!';//  ex 6
-
 
     /* else if (name()){
         return 'Hello, World!'
