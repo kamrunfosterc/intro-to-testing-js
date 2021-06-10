@@ -12,7 +12,7 @@ function sayHello(parameter){
             //checks for "", "bob", "6" ... bob goes to name input
             return "Hello, " + name + "!";
         }
-        return "Hello, World!";
+        return "Hello, World!";// might be good with out
 
     }
     return "Hello, World!";
